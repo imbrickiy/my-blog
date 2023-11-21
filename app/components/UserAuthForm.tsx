@@ -40,12 +40,12 @@ export default function UserAuthForm({ type }: UserAuthFormType) {
 
         {
           type === 'sign-in' ?
-            <p className='mt-6 text-dark-grey text-xl text-center'>
-              <Link href='/signup' className='underline text-black text-xl ml-1'>Don't have an account ?</Link>
+            <p className='mt-6 text-dark-grey text-xl text-center'> Don&apos;t have an account ?
+              <Link href='/signup' className='underline text-black text-xl ml-1'>Join us today</Link>
             </p>
             : 
-            <p className='mt-6 text-dark-grey text-xl text-center'>
-              <Link href='/signin' className='underline text-black text-xl ml-1'>Already a member ?</Link>
+            <p className='mt-6 text-dark-grey text-xl text-center'>Already a member ?
+              <Link href='/signin' className='underline text-black text-xl ml-1'>Sign in here</Link>
             </p>
         }
 
